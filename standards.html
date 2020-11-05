@@ -1,5 +1,5 @@
 <table>
-  {% for row in site.data.standards %}
+  {% for row in site.data.authors %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
@@ -7,5 +7,9 @@
       {% endfor %}
     </tr>
     {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
   {% endfor %}
 </table>
