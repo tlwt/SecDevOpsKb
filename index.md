@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 ## Welcome to SCRATCh SecDevOps Knowledge base
 
 You can use the [editor on GitHub](https://github.com/tlwt/SecDevOpsKb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
