@@ -14,9 +14,7 @@ $(document).ready(function(){
 });
 </script>
 
-<p>Search for:</p>  
-<input id="myInput" type="text" placeholder="Search..">
-<br><br>
+<p>Search for:<input id="myInput" type="text" placeholder="Search.."></p>  
 
 <table>
   {% for row in site.data.standards %}
