@@ -6,3 +6,4 @@ defaults:
       type: "pages"
     values:
       sitetitle: "SCRATCh"     
+      subtitle: "a funded project"     
