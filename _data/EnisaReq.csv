@@ -1,4 +1,4 @@
-﻿"#","Requirement Nr","Description","Good Practice","Is Fullfilled By","Remarks"
+"ID","Requirement Nr","Description","Good Practice","Is Fullfilled By","Remarks"
 "GP-TM-57","Conduct periodic audits and reviews of security controls to ensure that the controls are effective. Perform penetration tests at least biannually.","Monitoring and Auditing","...","..."
 "GP-TM-56","Implement regular monitoring to verify the device behaviour, to detect malware and to discover integrity errors.","Monitoring and Auditing","...","..."
 "GP-TM-55","Implement a logging system that records events relating to user authentication, management of accounts and access rights, modifications to security rules, and the functioning of the system.","Logging","...","..."
