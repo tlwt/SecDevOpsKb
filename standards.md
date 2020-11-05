@@ -26,10 +26,13 @@ $(document).ready(function(){
         <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
+    <tbody id="myTable">
     {% endif %}
-
+  
     {% tablerow pair in row %}
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
+    </tbody>
+
 </table>
