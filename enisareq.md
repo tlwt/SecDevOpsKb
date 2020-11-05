@@ -17,7 +17,7 @@ $(document).ready(function(){
 <p>Search for:<input id="myInput" type="text" placeholder="Search.."></p>  
 
 <table>
-  {% for row in site.data.standards %}
+  {% for row in site.data.enisareq %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
