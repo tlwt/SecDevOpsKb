@@ -8,4 +8,4 @@ Enjoy!
 
 ### Standards
 
-[Standards](/standards)
+* [Standards](/standards)
