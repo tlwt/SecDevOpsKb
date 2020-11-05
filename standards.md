@@ -1,5 +1,5 @@
 <ul>
-{% for member in site.data.standards %}
+{% for standard in site.data.standards %}
   <li>
     {{standard.name}} - {{standard.focus}}
   </li>
