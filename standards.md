@@ -1,7 +1,7 @@
 <ul>
 {% for member in site.data.standards %}
   <li>
-    {{standard.name}} - {{standard.description}}
+    {{standard.name}} - {{standard.focus}}
   </li>
 {% endfor %}
 </ul>
