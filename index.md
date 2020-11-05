@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: SecDevOps Knowledgebase
 ---
 
 ## Welcome to SCRATCh SecDevOps Knowledge base
