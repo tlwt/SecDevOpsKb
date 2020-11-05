@@ -14,7 +14,7 @@ $(document).ready(function(){
 });
 </script>
 
-<p>Type something in the input field to search the table for first names, last names or emails:</p>  
+<p>Search for:</p>  
 <input id="myInput" type="text" placeholder="Search..">
 <br><br>
 
