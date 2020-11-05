@@ -1,0 +1,14 @@
+- STD01:
+    name: Standard one
+    focus: Developer
+    skills:
+      - python
+      - perl
+      - pascal
+- STD02:
+    name: Standard two
+    job: Developer
+    skills:
+      - lisp
+      - fortran
+      - erlang
