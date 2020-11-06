@@ -16,23 +16,3 @@ sub title: {{ subtitle }}
 Site URL {{ site.url }}
 
 {% include table.html %}
-------
-
-<table>
-  {% for row in site.data.[page.datasource] %}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    <tbody id="myTable">
-    {% endif %}
-  
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-    </tbody>
-
-</table>
