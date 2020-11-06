@@ -5,5 +5,6 @@ defaults:
       path: ""
       type: "pages"
     values:
-      sitetitle: "SCRATCh"     
-      subtitle: "a funded project"     
+      sitetitle: "SCRATCh"
+      subtitle: "a funded project"
+      layout: default
