@@ -15,6 +15,9 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
+{% include table.html %}
+------
+
 <table>
   {% for row in site.data.[page.datasource] %}
     {% if forloop.first %}
