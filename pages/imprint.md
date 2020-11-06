@@ -1,6 +1,5 @@
 
-# Impressum
-Angaben gemäß § 5 TMG
+Angaben gemäß § 5 TMG - Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br />
 
      con­si­der it GmbH
      Ingolstädter Str. 1-3
@@ -8,26 +7,21 @@ Angaben gemäß § 5 TMG
      info@consider-it.de
 
 Vertreten durch Geschäftsführer:
-Christopher Nigischer, Till Witt
+     Christopher Nigischer, Till Witt
 
 Kontakt:
-Tel.: +49 40 / 22 86 89 111
-E-Mail: admin@consider-it.d
+     Tel.: +49 40 / 22 86 89 111
+     E-Mail: admin@consider-it.d
 
-Registereintrag (Handelsregister):
-Eintragung im Registergericht: Amts­ge­richt Bre­men
+Registereintrag (Handelsregister):<br />
+Eintragung im Registergericht: Amts­ge­richt Bre­men<br />
 Registernummer: HRB 26725
 
-Umsatzsteuer-ID:
+Umsatzsteuer-ID:<br />
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: DE 276034969
 
-Aufsichtsbehörde:
+Aufsichtsbehörde:<br />
 Bremen
-
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Max Muster
-Musterweg
-12345 Musterstadt
 
 ## Haftungsausschluss:
 
