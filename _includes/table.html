@@ -17,7 +17,7 @@ $(document).ready(function(){
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
-        <th>{{ pair[0] }}</th>
+        <th onclick="sortTable({% increment my_counter %})">{{ pair[0] }}</th>
       {% endfor %}
     </tr>
     <tbody id="myTable">
