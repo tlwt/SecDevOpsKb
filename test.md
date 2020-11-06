@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-datasource: standards
+datasource: site.data.standards
 ---
 
 blah
@@ -15,8 +15,21 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
-<ul>
-{% for member in site.data.{{ datasource }} %}
-  <li>yep</li>
-{% endfor %}
-</ul>
+<table>
+  {% for row in {{ datasource }} %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    <tbody id="myTable">
+    {% endif %}
+  
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+    </tbody>
+
+</table>
