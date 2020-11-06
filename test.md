@@ -16,6 +16,6 @@ sub title: {{ subtitle }}
 Site URL {{ site.url }}
 
 Nav
-{% for entry in site.pages.standards %}
-  <h2>entry {{ entry.title }} - {{ staff_member.datasource }}</h2>
+{% for entry in site.pages %}
+  <h2>entry {{ entry.title }} - {{ entry.datasource }}</h2>
 {% endfor %}
