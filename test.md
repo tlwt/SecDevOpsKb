@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+datasource: standards
 ---
 
 blah
@@ -13,3 +14,9 @@ Site title: {{ sitetitle }}
 sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
+
+<ul>
+{% for member in site.data.{{ datasource }} %}
+  <li>yep</li>
+{% endfor %}
+</ul>
