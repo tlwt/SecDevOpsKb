@@ -2,10 +2,10 @@
 # Impressum
 Angaben gemäß § 5 TMG
 
-con­si­der it GmbH
-Ingolstädter Str. 1-3
-D-28219 Bremen
-info@consider-it.de
+     con­si­der it GmbH
+     Ingolstädter Str. 1-3
+     D-28219 Bremen
+     info@consider-it.de
 
 Vertreten durch Geschäftsführer:
 Christopher Nigischer, Till Witt
