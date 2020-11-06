@@ -15,6 +15,7 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
+Nav
 {% for entry in site.pages.standards %}
-  <h2>{{ entry.title }} - {{ staff_member.datasource }}</h2>
+  <h2>entry {{ entry.title }} - {{ staff_member.datasource }}</h2>
 {% endfor %}
