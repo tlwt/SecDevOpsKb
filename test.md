@@ -15,7 +15,7 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
-inspect: {{ site.pages.standards | inspect }}
+inspect: {{ site.pages | inspect }}
 
 Nav
 {% for entry in site.pages %}
