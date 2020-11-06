@@ -13,7 +13,7 @@ $(document).ready(function(){
 <p>Search for:<input id="myInput" type="text" placeholder="Search.."></p>  
 
 <table>
-  {% for row in site.data.enisareq %}
+  {% for row in site.data.[page.datasource] %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
