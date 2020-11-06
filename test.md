@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-datasource: site.data.standards
+datasource: standards
 ---
 
 blah
@@ -16,7 +16,7 @@ sub title: {{ subtitle }}
 Site URL {{ site.url }}
 
 <table>
-  {% for row in {{ datasource }} %}
+  {% for row in site.data.[page.datasource] %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
