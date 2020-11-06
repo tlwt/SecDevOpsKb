@@ -15,9 +15,6 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
-{% include table.html %}
-
-
 {% for entry in site.pages.standards %}
   <h2>{{ entry.title }} - {{ staff_member.datasource }}</h2>
 {% endfor %}
