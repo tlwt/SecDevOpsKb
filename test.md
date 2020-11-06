@@ -15,9 +15,9 @@ sub title: {{ subtitle }}
 
 Site URL {{ site.url }}
 
-inspect: {{ site.pages | inspect }}
+inspect: {{ site.pages.standards | inspect }}
 
 Nav
 {% for entry in site.pages %}
-  <h2>entry {{ entry.title }} - {{ entry.datasource }}</h2>
+  <h2>entry {{ entry.title }} - {{ entry.name }}</h2>
 {% endfor %}
